@@ -1,38 +1,74 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: 'American Typewriter';
+  align-content: center;
+  align-self: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
+}
+.addTask button {
+  text-align: center;
+  font-family: 'American Typewriter';
+  align-content: center;
+  align-self: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: rgba(152, 59, 178, 0.984);
+  background-color: white;
+}
+
+.addTask input {
+  font-family: 'American Typewriter';
+  background-color: rgba(152, 59, 178, 0.984);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.list p {
+  background-color: rgba(152, 59, 178, 0.984);
+  color: white;
+  display: flex;
+  margin: 15px;
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.task {
+  width: 25;
+  height: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(152, 59, 178, 0.984);
+  color: white;
+  padding-bottom: 15px;
+  word-wrap: break-word;
+}
+
+
+
+.task button {
+  margin-left: 10px;
+  margin-top: 5px;
+  height: 25px;
+  width: auto;
+  text-align: center;
+  background-color: #983bb2fb;
+  font-family: 'American Typewriter';
+  color: white;
+}
+
+.footer {
+  font-size: xx-small;
+  color: gray;
+  padding-top: 25%;
+}
+
+.footer a {
+  font-size: xx-small;
+  margin-top: 75%;
+  color: #983bb2fb;
 }
